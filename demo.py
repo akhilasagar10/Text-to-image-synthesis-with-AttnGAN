@@ -140,7 +140,7 @@ def demo_gan():
 
     algo = trainer(output_dir, dataloader, dataset.n_words, dataset.ixtoword)
 
-    st.title("Text To Image Synthesis using AttnGAN")
+    st.title("Text To Image Synthesis GANs")
 
     
     st.markdown("---")
