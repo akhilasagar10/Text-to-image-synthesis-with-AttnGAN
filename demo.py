@@ -166,15 +166,10 @@ def demo_gan():
             type="image", img_path="models/bird_AttnGAN2/output/0_s_0_g2.png"
         )
 
-        center_element(type="subheading", text="The attention given for each word")
+        center_element(type="subheading", text="Visualize the attention provided to each word:")
         st.image("models/bird_AttnGAN2/output/0_s_0_a1.png")
 
-        st.markdown("---")
-        with st.beta_expander("Click to see the first stage images"):
-            st.write("First stage image")
-            st.image("models/bird_AttnGAN2/output/0_s_0_g1.png")
-            st.write("First stage attention")
-            st.image("models/bird_AttnGAN2/output/0_s_0_a0.png")
+       
 
 
 def attngan_explained():
